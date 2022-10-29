@@ -1,60 +1,75 @@
-html,
-body {
-  width: 100%;
-  box-sizing: border-box;
-  display: flexbox;
-  justify-content: center;
-}
-
-body {
-  background-color: #a4a4a4;
+* {
+  padding: 0;
   margin: 0;
-  padding: 16px;
+  box-sizing: border-box;
 }
 
-form {
-  background-color: rgb(141, 126, 106);
-  width: 750px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  border: 1px solid none;
-  border-radius: 15%;
+body {
+  background-color: rgb(229, 150, 30);
+  color: rgb(246, 249, 251);
+  font-family: "Poppins", sans-serif;
 }
 
-#form-heading {
-  font-size: 32px;
-  padding-top: 56px;
-  padding-bottom: 32px;
+nav h1 {
+  width: 30%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: rgb(46, 39, 6);
 }
 
-#input-wrapper {
-  padding-top: 80px;
-  padding-bottom: 40px;
-  padding-left: 80px;
-  padding-right: 80px;
+li {
+  list-style: none;
+  display: inline;
+  margin: 8px;
 }
 
-.input-box {
-  font-size: 18px;
-  padding-bottom: 12px;
-  margin-bottom: 36px;
-  border: 0;
-  border-bottom: 1px solid #ccc;
-  width: 100%;
+body a {
+  text-decoration: none;
+  color: rgb(246, 249, 251);
 }
 
-#btn-submit {
-  font-size: 24px;
-  color: #e5e5e5;
-  background: #484848;
-  padding: 15px;
-  margin: 10px;
-  border: solid;
-  border-radius: 5px;
+body h1 {
+  padding: 10px;
+  font-size: 42px;
+}
+nav ul li a {
+  padding: 8px;
 }
 
-#btn-submit:hover {
-  color: burlywood;
-  background-color: rgb(22, 68, 68);
+nav ul li a:hover {
+  background-color: red;
+  border-radius: 20%;
+}
+main {
+  margin: 10% 10% 15%;
+}
+main .md {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .mn1 {
+  width: 60%;
+  line-height: 1.5;
+}
+
+main .mn2 {
+  width: 30%;
+}
+img {
+  width: 30%;
+  border-radius: 20%;
+  position: absolute;
+  right: 8%;
+  bottom: 5%;
+  height: 70%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  margin: auto;
 }

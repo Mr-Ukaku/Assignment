@@ -1,87 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <form action="login.html">
-      <h1 id="form-heading">Register</h1>
 
-      <div id="input-wrapper">
-        <div>
-          <input
-            class="input-box"
-            type="text"
-            name="firstname"
-            placeholder="First name"
-            required
-          />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Home Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1>My Space</h1>
+            <ul>
+                <li><a target="_blank" href="/contactme.html">Contact us</a></li>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="/service.html">Services</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="md">
+            <div class="mn1">
+                <h1>Welcome to my Space &#128522</h1>
+                <p> I am Victor Okenwa, <br> and I am Web developer. <br>
+                    I love to transform my idead into <br> very accessible user product.</p>
+            </div>
+            <div class="mn2">
+                <img src="/Victor Okenwa.jpg" alt="Victor Okenwa">
+            </div>
         </div>
-        <div>
-          <input
-            class="input-box"
-            type="text"
-            name="lastname"
-            placeholder="Last name"
-            required
-          />
-        </div>
-        <div>
-          <input
-            class="input-box"
-            type="text"
-            name="username"
-            placeholder="Create Username"
-            required
-          />
-        </div>
-        <div>
-          <input
-            class="input-box"
-            type="phone"
-            name="phone"
-            placeholder="Phone Number"
-            required
-          />
-        </div>
-        <div>
-          <input
-            class="input-box"
-            type="email"
-            name="email"
-            placeholder="Email"
-            required
-          />
-        </div>
-        <div>
-          <select class="input-box" name="Gender">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-          </select>
-        </div>
-        <div>
-          <input
-            class="input-box"
-            type="password"
-            name="create-password"
-            placeholder="Create Password"
-          />
-        </div>
-        <div>
-          <input
-            class="input-box"
-            type="password"
-            name="confirm- password"
-            placeholder="Confirm Password"
-          />
-        </div>
-        By registering you agree to the <a href="#">Terms and Conditions</a>
-        <br />
-        <button id="btn-submit">Submit</button>
-      </div>
-    </form>
-  </body>
+
+
+    </main>
+    <footer>
+        Copyright
+    </footer>
+</body>
+
 </html>
